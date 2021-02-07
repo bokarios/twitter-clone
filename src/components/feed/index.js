@@ -26,6 +26,13 @@ function Feed() {
 				avatar="https://i.pinimg.com/originals/89/5b/57/895b5749ffc6a3ec41abb153b1cab66b.jpg"
 			/>
 			<Post
+				displayName="Elon Musk"
+				username="elonmusk"
+				verified
+				avatar="https://pbs.twimg.com/profile_images/1295975423654977537/dHw9JcrK_400x400.jpg"
+				text="Use signal it's more secure than Whatsapp."
+			/>
+			<Post
 				displayName="Sam Jones"
 				username="samjones"
 				text="I can't imagine living a day without doing something related to programming XD"
