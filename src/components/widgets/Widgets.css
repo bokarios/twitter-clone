@@ -1,0 +1,132 @@
+.widgets {
+	flex: 1;
+	max-width: 420px;
+}
+
+.widgets__input {
+	display: flex;
+	align-items: center;
+	background-color: var(--twitter-background);
+	padding: 10px;
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.widgets__input > input {
+	border: none;
+	background-color: var(--twitter-background);
+}
+
+.widgets__searchIcon {
+	color: gray;
+}
+
+.widgets__widgetContainer {
+	margin-top: 15px;
+	margin-left: 20px;
+	padding: 20px;
+	background-color: #f5f8fa;
+	border-radius: 20px;
+	margin-right: 10px;
+}
+
+.widgets__widgetContainer > h2 {
+	font-size: 18px;
+	font-weight: 800;
+}
+
+.widgets__trends {
+	display: flex;
+	flex-direction: column;
+	border-radius: 30px;
+	padding: 20px 0;
+	background-color: var(--twitter-background);
+}
+
+/* .widgets__trends > hr {
+	border: 1px solid gray;
+} */
+
+.widgets__trendsHeader {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 15px;
+	margin-bottom: 5px;
+}
+
+.widgets__trendsHeader > h2 {
+	font-weight: 600;
+}
+
+.widgets__trendsHeader > .MuiSvgIcon-root {
+	color: gray;
+	cursor: pointer;
+}
+
+.widgets__trendsHeader > .MuiSvgIcon-root:hover {
+	color: var(--twitter-background);
+	background-color: lightgray;
+	border-radius: 50%;
+}
+
+.widgets__trendsBody {
+	display: flex;
+	flex-direction: column;
+}
+
+.widgets__trendsBody > p {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 15px;
+}
+
+.widgets__trendsBody > p > .MuiSvgIcon-root {
+	color: gray;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+.widgets__trendsBody > p > .MuiSvgIcon-root:hover {
+	color: var(--twitter-background);
+	background-color: lightgray;
+	border-radius: 50%;
+}
+
+.widgets__trendsBody > span {
+	margin: 0 15px;
+	font-weight: 600;
+}
+
+.widgets__trendsBody > small {
+	margin: 15px 15px;
+	margin-top: 15px;
+}
+
+.widgets__trendsFooter {
+	display: flex;
+	margin: 10px 15px;
+	cursor: pointer;
+	color: #111;
+	text-decoration: none;
+}
+
+.widgets__trendsFooter:hover {
+	text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+	.widgets {
+		display: none;
+	}
+}
+
+@media (max-width: 1024px) {
+	.widgets {
+		display: none;
+		/* max-width: 380px; */
+	}
+}

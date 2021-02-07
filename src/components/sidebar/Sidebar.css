@@ -1,0 +1,88 @@
+.sidebar {
+	border-right: 1px solid var(--twitter-background);
+	flex: 0.4;
+	/* min-width: 250px; */
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.sidebar__twitterIcon {
+	color: var(--twitter-color);
+	font-size: 30px !important;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+.sidebar__tweet {
+	background-color: var(--twitter-color) !important;
+	border: none !important;
+	color: white !important;
+	font-weight: 900 !important;
+	text-transform: inherit !important;
+	border-radius: 30px !important;
+	height: 50px !important;
+	margin-top: 20px !important;
+}
+
+.sidebar__tweetLogo {
+	border-radius: 50% !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--twitter-color);
+	padding: 10px;
+	cursor: pointer;
+	display: none;
+}
+
+.sidebar__tweetLogo > .MuiSvgIcon-root {
+	color: white;
+	font-size: 38px;
+}
+
+.sidebar__tweetLogo:hover {
+	background-color: #348fc5;
+}
+
+@media (max-width: 768px) {
+	.sidebar {
+		padding-left: 0;
+		padding-right: 0;
+		max-width: 65px;
+	}
+
+	.sidebar__tweet {
+		display: none !important;
+	}
+
+	.sidebar__tweetLogo {
+		display: flex;
+	}
+
+	.sidebar__twitterIcon {
+		margin-left: 16px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.sidebar {
+		padding-left: 0;
+		/* padding-right: 0; */
+		/* flex: 0.1; */
+		max-width: 60px;
+	}
+
+	.sidebar__twitterIcon {
+		margin-left: 16px;
+	}
+
+	.sidebar__tweet {
+		display: none !important;
+	}
+
+	.sidebar__tweetLogo {
+		display: flex;
+	}
+}
